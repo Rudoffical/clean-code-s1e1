@@ -19,7 +19,7 @@ body {
 }
 
 
-.aaa .more_inf {
+.aaa.more_inf {
     font-family: fantasy, cursive;
 }
 
@@ -78,7 +78,7 @@ button:hover {
 
 /* Heading */
 h3,
-label[for='new-task'] {
+label [for='new-task'] {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -156,7 +156,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul #completed-tasks label {
     text-decoration: line-through
     color: #888;
 }
@@ -166,11 +166,11 @@ ul li input[type=text] {
     display: none
 }
 
-ul li.editMode input[type=text] {
+ul li.edit-mode input[type=text] {
     display: inline-block;
     width: 224px
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
     display: none;
 }
