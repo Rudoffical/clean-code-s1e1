@@ -6,7 +6,7 @@ body {
 }
 
 
-.aaa {
+.WantMoreDetails {
     width: 500px;
     margin: 0 auto;
     display: block;
@@ -14,18 +14,18 @@ body {
 }
 
 
-.aaa img {
+.WantMoreDetails img {
     width: 100%;
 }
 
 
-.aaa.more_inf {
+.WantMoreDetails.more_inf {
     font-family: fantasy, cursive;
 }
 
 
 @media (max-width: 768px) {
-    .aaa {
+    .WantMoreDetails {
         text-align: center;
     }
 
